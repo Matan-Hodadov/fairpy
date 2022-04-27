@@ -1,8 +1,8 @@
-from fairDivision import *
+from fairDivisionOrdinalPreference import *
 import pytest
 
 
-class TestFairDivision:
+class TestFairDivisionOrdinalPreference:
     def test_isPEF(self):
         assert isPEF(5, 2, {1: "abcd", 2: "dcba"}, {1: "ad", 2: "bc"})
         assert isPEF(3, 2, {1: "abc", 2: "abc"}, {1: "b", 2: "ac"})
