@@ -1,4 +1,4 @@
-from fairDivisionOrdinalPreference import *
+from fairpy.items.fair_division_ordinal_preference import *
 import pytest
 
 
